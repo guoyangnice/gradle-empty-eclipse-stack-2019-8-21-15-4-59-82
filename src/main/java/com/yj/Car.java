@@ -10,8 +10,16 @@ public class Car {
 		this.wheels = wheels;
 	}
 	
+	public String getEngine() {
+		return engine;
+	}
+	
+	public String getWheels() {
+		return wheels;
+	}
+	
 	public void start() {
-		System.out.print(engine+"is on and "+ wheels + "are running!");
+		System.out.println(engine+"is on and "+ wheels + "are running!");
 	}
 
 }
