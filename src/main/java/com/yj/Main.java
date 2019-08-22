@@ -9,6 +9,11 @@ public class Main {
 		
 		SportsCar sportsCar = new SportsCar("{lights}","{engine}","{wheels}");
 		sportsCar.start();
+		sportsCar.speedOn();
+		
+		Truck truck = new Truck("{engine}","{wheels}");
+		truck.start();
+		truck.load("{payload}");
 	}
 
 }

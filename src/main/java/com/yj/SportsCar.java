@@ -3,8 +3,6 @@ package com.yj;
 public class SportsCar extends Car{
 	
 	private String lights;
-	private String engine;
-	private String wheels;
 	
 	public SportsCar(String lights,String engine, String wheels) {
 		super(engine, wheels);
@@ -13,6 +11,10 @@ public class SportsCar extends Car{
 
 	public void start() {
 		System.out.println(lights+"are shining,"+ getEngine() +" is on and "+ getWheels() + " are running!");
+	}
+	
+	public void speedOn() {
+		System.out.println(getEngine() +" is overload and " + getWheels()+" are super running!"); 
 	}
 	
 }
